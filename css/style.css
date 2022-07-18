@@ -84,8 +84,14 @@ header{
 /* /sezione1 */
 
 /* sezione2 */
-.sez2{
-    
+.pagament_plans .card{
+    background-color: brown;
+    flex-basis: calc(100% / 3);
+    height: 500px;
+    border: 3px solid black;
+}
+.pagament_plans .card_footer{
+    height: 200px;
 }
 /* /sezione2 */
 
