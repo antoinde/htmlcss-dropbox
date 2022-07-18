@@ -4,8 +4,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* utilitys */
+.flex{  display: flex;}
+.column{    flex-direction: column;}
+.row{   flex-direction: row;}
+.align-center{  align-items: center;}
+.justify-center{ justify-content: center;}
+/* /utilitys */
+
+/* generics */
+a{  
+    text-decoration: none;
+    color: black;
+}
+/* /generics */
+
 /* HEADER *********************/
 header{
     background-color: cadetblue;
+    padding: 15px;
+    justify-content: space-between;
 }
 /* /HEADER ********************/
