@@ -11,6 +11,7 @@
 .align-center{  align-items: center;}
 .justify-center{ justify-content: center;}
 .grow{ flex-grow: 1;}
+.wrap{ flex-wrap: wrap;}
 .gap-col-20px{  column-gap: 20px;}
 .gap-row-20px{  row-gap: 20px;}
 .marg-top-60px{ margin-top: 60px;}
@@ -103,7 +104,7 @@ header{
 }
 .sez3 .container_small .sez3-left, .sez3 .container_small .sez3-right{
     background-color: brown;
-    border: 3 px solid black;
+    border: 3px solid black;
     flex-basis: 50%;
 }
 .sez3 .container_small .sez3-right{
@@ -111,5 +112,25 @@ header{
 }
 
 /* /sezione3 */
+
+/* sezione4 */
+
+.sez4 .card{
+    background-color: brown;
+    border: 3px solid black;
+    flex-basis: calc(100% / 3);
+}
+
+.sez4 .team{
+    margin-top: 127px;
+    margin-bottom: 38px;
+}
+
+.sez4 a{
+    text-decoration: underline;
+    color: blue;
+}
+
+/* /sezione4 */
 
 /* SECTION *********************/
