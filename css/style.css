@@ -19,10 +19,34 @@ a{
 }
 /* /generics */
 
+
+
 /* HEADER *********************/
 header{
     background-color: cadetblue;
     padding: 15px;
     justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 60px;
 }
 /* /HEADER ********************/
+
+
+/* SECTION *********************/
+.container_normal{ 
+    padding: 0 10%;
+    border: 3px solid black;
+}
+.container_small{
+    padding: 13%;
+    border: 3px solid black;
+}
+
+.sez1{
+    margin-top: 59px; /* per distanziare dall header fixed */
+    background-color: #b4d0e7;
+}
+
+/* SECTION *********************/
