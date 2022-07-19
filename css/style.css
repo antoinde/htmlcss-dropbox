@@ -10,15 +10,20 @@
 .row{   flex-direction: row;}
 .align-center{  align-items: center;}
 .justify-center{ justify-content: center;}
-.grow{ flex-grow: 1;}
+.grow-1{ flex-grow: 1;}
+.grow-2{ flex-grow: 2;}
+.grow-3{ flex-grow: 3;}
 .wrap{ flex-wrap: wrap;}
 .gap-col-20px{  column-gap: 20px;}
 .gap-row-20px{  row-gap: 20px;}
 .marg-top-60px{ margin-top: 60px;}
-.marg-top-bot-60px{ margin: 60px 0;}
+.marg-top-bot-130px{ margin: 130px 0;}
 /* /utilitys */
 
 /* generics */
+body{
+    font-size: 1.15rem;
+}
 a{  
     text-decoration: none;
     color: black;
@@ -50,7 +55,6 @@ img{
 /* HEADER *********************/
 header{
     background-color: white;
-    /* padding: 15px; */
     justify-content: space-between;
     position: fixed;
     top: 0px;
