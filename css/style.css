@@ -114,13 +114,37 @@ header a{
 
 /* sezione2 */
 .pagament_plans .card{
-    background-color: brown;
+    /* background-color: brown; */
     flex-basis: calc(100% / 3);
-    height: 500px;
-    border: 3px solid black;
+    height: 700px;
+    /* border: 3px solid black; */
+    padding: 15px;
+    position: relative;
 }
 .pagament_plans .card_footer{
     height: 200px;
+}
+.choosing_area{
+    margin: 43px 0px;
+}
+.choosing_area span:nth-child(2) {
+    margin-left: 74px;
+}
+
+.sez2 .card_content{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid grey;
+}
+#fixed1{
+    padding-left: 0px;
+}
+#fixed2{
+    padding-right: 0px;
+}
+.card_content .card-head{
+    border-bottom: 1px solid grey
 }
 /* /sezione2 */
 
