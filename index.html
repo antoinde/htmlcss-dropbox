@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+     <!-- COLLEGAMENTO FONTAWESOME -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <!-- COLLEGAMENTO AL CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -36,7 +39,7 @@
             <a href="#">Supporto</a>
             <a href="#">Contatta l'ufficio vendite</a>
             <a href="#">Accedi</a>
-            <a class="link_button" href="#">Inizia</a>
+            <a class="link_button no-height" href="#">Inizia</a>
         </div>
         <!-- header right -->
     </header>
@@ -62,8 +65,8 @@
                     <div class="grow-2">
                         Annulla in qualsiasi momento
                     </div>
-                    <div class="grow-2">
-                        freccia giù
+                    <div>
+                        <i class="fa-solid fa-arrow-down"></i>
                     </div>
                 </div>
                 <div class="right_sez1">
@@ -94,7 +97,7 @@
                         <div class="card_content flex column">
                             <!-- contenuto piano 1 abbonamento -->
                             <div class="card-head">
-                                <span>loghetto</span> Singolo
+                                <span><i class="fa-solid fa-user"></i></span> Singolo
                             </div>
                             <div class="card-main flex column">
                                 <h2>Professional</h2>
@@ -104,91 +107,119 @@
                                 <div class="duration-plan">
                                     /mese
                                 </div>
-                                <div> <span>loghetto</span> 1 utente</div>
-                                <div> <span>loghetto</span> 5TB di spazio di archiviazione sicuro</div>
-                                <div> <span>loghetto</span> Funzioni di produttività premium e condivisione file semplice e sicura</div>
-                                <div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-user"></i></span> 1 utente</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-folder"></i></span> 5TB di spazio di archiviazione sicuro</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-share-nodes"></i></span> Funzioni di produttività premium e condivisione file semplice e sicura</div>
+                                <div class="margin-button">
                                     <a class="link_button" href="#">Prova gratis per 30 giorni</a>
                                 </div>
                                 <div>
                                     <span>oppure</span>
-                                    <span><a href="#"> acquista ora</a></span>
+                                    <span><a class="normal-link" href="#"> acquista ora</a></span>
                                 </div>
 
-                                <div><h3>Punti Salienti del piano</h3></div>
-                                <div> <span>loghetto</span> Invia file fino a 100 GB con Dropbox Transfert</div>
-                                <div> <span>loghetto</span> Cartelle offline su dispositivi mobili</div>
+                                <div><h3 class="margin-punti-salienti">Punti Salienti del piano</h3></div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Invia file fino a 100 GB con Dropbox Transfert</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Cartelle offline su dispositivi mobili</div>
                             </div>
 
                         </div>
                     </div>
                     <div class="card">
                         <div class="card_content flex column">
-                            <!-- contenuto piano 1 abbonamento -->
+                            <!-- contenuto piano 2 abbonamento -->
                             <div class="card-head">
-                                <span>loghetto</span> Singolo
+                                <span><i class="fa-solid fa-users"></i></span> Team
                             </div>
                             <div class="card-main flex column">
-                                <h2>Professional</h2>
+                                <h2>Advanced</h2>
                                 <div class="prize-plan">
-                                    <h3>&euro; 12.00</h3>
+                                    <h3>&euro; 18.00</h3>
                                 </div>
                                 <div class="duration-plan">
-                                    /mese
+                                    /utente/mese
                                 </div>
-                                <div> <span>loghetto</span> 1 utente</div>
-                                <div> <span>loghetto</span> 5TB di spazio di archiviazione sicuro</div>
-                                <div> <span>loghetto</span> Funzioni di produttività premium e condivisione file semplice e sicura</div>
-                                <div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-users"></i></span> 3 o più utenti</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-folder"></i></span> Tutto lo spazio di cui ha bisogno il tuo team</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-share-nodes"></i></span> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</div>
+                                <div class="margin-button">
                                     <a class="link_button" href="#">Prova gratis per 30 giorni</a>
                                 </div>
                                 <div>
                                     <span>oppure</span>
-                                    <span><a href="#"> acquista ora</a></span>
+                                    <span><a class="normal-link" href="#"> acquista ora</a></span>
                                 </div>
 
-                                <div><h3>Punti Salienti del piano</h3></div>
-                                <div> <span>loghetto</span> Invia file fino a 100 GB con Dropbox Transfert</div>
-                                <div> <span>loghetto</span> Cartelle offline su dispositivi mobili</div>
+                                <div><h3 class="margin-punti-salienti">Punti Salienti del piano</h3></div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Nessun limite di spazio per i file</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Cartelle offline su dispositivi mobili</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Risparmio del 50% rispetto alle iscrizioni singole</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Possibilità di inserire nuovi membri del team</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Gestione dei permessi in base ai ruoli</div>
+                                
                             </div>
 
                         </div>
                     </div>
                     <div id="fixed2" class="card">
                         <div class="card_content flex column">
-                            <!-- contenuto piano 1 abbonamento -->
+                            <!-- contenuto piano 3 abbonamento -->
                             <div class="card-head">
-                                <span>loghetto</span> Singolo
+                                <span><i class="fa-solid fa-building"></i></span> Azienda
                             </div>
                             <div class="card-main flex column">
-                                <h2>Professional</h2>
+                                <h2>Enterprise</h2>
                                 <div class="prize-plan">
-                                    <h3>&euro; 12.00</h3>
+                                    <h3>Contattaci</h3>
                                 </div>
                                 <div class="duration-plan">
-                                    /mese
+                                    -
                                 </div>
-                                <div> <span>loghetto</span> 1 utente</div>
-                                <div> <span>loghetto</span> 5TB di spazio di archiviazione sicuro</div>
-                                <div> <span>loghetto</span> Funzioni di produttività premium e condivisione file semplice e sicura</div>
-                                <div>
-                                    <a class="link_button" href="#">Prova gratis per 30 giorni</a>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-users"></i></span> 10 o più utenti</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-folder"></i></span> Soluzioni personalizzabili per la tua azienda</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-share-nodes"></i></span> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</div>
+                                <div class="margin-button">
+                                    <a class="link_button" href="#">Contattaci</a>
                                 </div>
                                 <div>
                                     <span>oppure</span>
-                                    <span><a href="#"> acquista ora</a></span>
+                                    <span><a class="normal-link" href="#"> acquista ora</a></span>
                                 </div>
 
-                                <div><h3>Punti Salienti del piano</h3></div>
-                                <div> <span>loghetto</span> Invia file fino a 100 GB con Dropbox Transfert</div>
-                                <div> <span>loghetto</span> Cartelle offline su dispositivi mobili</div>
+                                <div><h3 class="margin-punti-salienti">Punti Salienti del piano</h3></div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Cartelle offline su dispositivi mobili</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Servizio assistenza 24/h</div>
+                                <div class="flex"> <span class="pd-right10px"><i class="fa-solid fa-check"></i></span> Possibilità di personalizzazione totale</div>
+                                
                             </div>
 
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div class="card card_footer">footer</div>
+                    <div class="card card_footer">
+
+                        <div class="card_content flex column">
+                            <!-- contenuto piano 4 abbonamento TEAM ENTERPRISE-->
+                            <div class="card-head">
+                                <span><i class="fa-solid fa-building"></i></span> Azienda
+                            </div>
+                            <div class="card-main flex column">
+                                <h2>Enterprise</h2>
+                                <div class="prize-plan">
+                                    <h3>Contattaci</h3>
+                                </div>
+                                <div class="duration-plan">
+                                    -
+                                </div>
+                                
+                                
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>

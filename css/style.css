@@ -20,15 +20,21 @@
 .gap-row-20px{  row-gap: 20px;}
 .marg-top-60px{ margin-top: 60px;}
 .marg-top-bot-130px{ margin: 130px 0;}
+.pd-right10px{ padding-right: 10px;}
 /* /utilitys */
 
 /* generics */
 body{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 a{  
     text-decoration: none;
     color: black;
+}
+.normal-link{
+    text-decoration:underline;
+    color: blue;
 }
 img{
     max-width: 100%;
@@ -49,6 +55,10 @@ img{
     padding: 5px 15px;
     border-radius: 2px;
     color: white;
+    text-decoration: none;
+}
+.fa-check{
+    color:blue;
 }
 /* /generics */
 
@@ -64,7 +74,7 @@ header{
     height: 60px;
     z-index: 1;
 }
-header a{
+header a:not(.no-height){
     display: flex;
     align-items: center;
     height: 100%;
@@ -75,7 +85,10 @@ header a{
 .header_left div, .header_right div{
     height: 100%;
 }
-.header_left a:hover, .header_right a:hover{
+.header_left, .header_right{
+    padding: 0px 10px;
+}
+.header_left a:hover, .header_right a:not(.no-height):hover{
     box-shadow: 0px 3px 0px 0px black;
 }
 
@@ -100,6 +113,7 @@ header a{
     width: 30%;
     padding: 17px;
     border: 2px solid black;
+    font-size: 1rem;
 }
 .sez1 .right_sez1{
     width: 70%;
@@ -112,13 +126,16 @@ header a{
     top: 40px;
     left: 3px;
 }
+.sez1 i{
+    font-size: 60px;
+}
 /* /sezione1 */
 
 /* sezione2 */
 .pagament_plans .card{
     /* background-color: brown; */
     flex-basis: calc(100% / 3);
-    height: 700px;
+    /* height: 700px; */
     /* border: 3px solid black; */
     position: relative;
 }
@@ -153,6 +170,18 @@ header a{
 .duration-plan{
     font-size: 1rem;
     color: grey;
+    padding-bottom: 30px;
+}
+.card-main .link_button{
+    margin-top: 10px;
+}
+.margin-button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.margin-punti-salienti{
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 /* /sezione2 */
 
