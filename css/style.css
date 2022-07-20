@@ -156,6 +156,9 @@ header a:not(.no-height){
     background-color: white;
     border: 1px solid grey;
 }
+.sez2 h1:first-child{
+    font-size: 2.5rem;
+}
 .gap-card{
     column-gap: 60px;
 }
@@ -242,14 +245,16 @@ header a:not(.no-height){
 /* sezione4 */
 
 .sez4 .card{
-    background-color: brown;
-    border: 3px solid black;
+    /* background-color: brown; */
+    /* border: 3px solid black; */
     flex-basis: calc(100% / 3);
+    padding: 25px;
 }
 
 .sez4 .team{
     margin-top: 127px;
     margin-bottom: 38px;
+    font-size: 2.3rem;
 }
 
 .sez4 a{
@@ -257,6 +262,17 @@ header a:not(.no-height){
     color: blue;
 }
 
+.sez4 h1:first-child{
+    font-size: 2.3rem;
+    padding-bottom: 50px;
+}
+.sez4 .card p{
+    line-height: 1.2rem;
+}
+.sez4 .card h1{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
 /* /sezione4 */
 
 
