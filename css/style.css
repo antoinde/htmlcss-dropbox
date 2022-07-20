@@ -205,13 +205,36 @@ header a:not(.no-height){
 .sez3{
 
 }
-.sez3 .container_small .sez3-left, .sez3 .container_small .sez3-right{
-    background-color: brown;
-    border: 3px solid black;
+.sez3 .sez3-left{
+    /* background-color: brown; */
+    /* border: 3px solid black; */
     flex-basis: 50%;
+    flex-grow: 2;
 }
-.sez3 .container_small .sez3-right{
+
+.sez3 .sez3-right{
     padding: 30px;
+    /* background-color: brown; */
+    /* border: 3px solid black; */
+    flex-basis: 35%;
+}
+
+.sez3 h2{
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.sez3 p{
+    line-height: 1.2rem;
+    padding-bottom: 60px;
+}
+
+#special_button{
+    border-color: black;
+    color: black;
+    font-weight: lighter;
+    background-color: white;
 }
 
 /* /sezione3 */
