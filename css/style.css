@@ -42,12 +42,12 @@ img{
 .container_normal{ 
     margin: 0 auto;
     max-width: 1200px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 .container_small{
     margin: 0 auto;
     max-width: 1000px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 .link_button{
     border: 1px solid #0061ff;
@@ -112,13 +112,13 @@ header a:not(.no-height){
 .sez1 .left_sez1{
     width: 30%;
     padding: 17px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size: 1rem;
 }
 .sez1 .right_sez1{
     width: 70%;
     flex-grow: 1;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 .sez1 .right_sez1 img{
     transform: scale(110%);
@@ -141,6 +141,7 @@ header a:not(.no-height){
 }
 .pagament_plans .card_footer{
     height: 200px;
+    margin-top: 45px;
 }
 .choosing_area{
     margin: 43px 0px;
@@ -183,6 +184,21 @@ header a:not(.no-height){
     margin-top: 40px;
     margin-bottom: 10px;
 }
+
+/* 4° abbonamento TEAM ENTERPRISE*/
+.card_content .foot_left{
+    width: 100%;
+}
+.card_content .foot_right{
+    width: 70%;
+    padding: 37px;
+    text-align: end;
+}
+.card_footer p{
+    margin-top: 22px;
+}
+
+/* /4° abbonamento TEAM ENTERPRISE*/
 /* /sezione2 */
 
 /* sezione3 */
