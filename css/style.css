@@ -14,6 +14,7 @@
 .justify-center{ justify-content: center;}
 .justify-start{ justify-content: flex-start;}
 .justify-end{ justify-content: flex-end;}
+.justify-between{ justify-content: space-between;}
 .grow-1{ flex-grow: 1;}
 .grow-2{ flex-grow: 2;}
 .grow-3{ flex-grow: 3;}
@@ -58,6 +59,9 @@ img{
     border-radius: 2px;
     color: white;
     text-decoration: none;
+}
+.link_button:hover{
+    opacity: 0.8;
 }
 .fa-check{
     color:blue;
@@ -126,13 +130,12 @@ header a:not(.no-height){
     /* border: 2px solid black; */
 }
 .sez1 .right_sez1 img{
-    transform: scale(110%);
+    transition: 1s;
     position: relative;
     top: 40px;
     left: 3px;
 }
 .sez1 .right_sez1 img:hover {
-    transition: 1s;
     transform: scale(105%);
 }
 .sez1 i{
@@ -238,6 +241,12 @@ header a:not(.no-height){
     line-height: 1.2rem;
     padding-bottom: 60px;
 }
+.sez3 img{
+    transition: 0.4s;
+}
+.sez3 img:hover{
+    transform: scale(95%);
+}
 
 #special_button{
     border-color: black;
@@ -279,6 +288,12 @@ header a:not(.no-height){
     font-size: 1.5rem;
     padding-bottom: 20px;
 }
+.sez4 img{
+    transition: 0.4s;
+}
+.sez4 img:hover{
+    transform: scale(105%);
+}
 /* /sezione4 */
 
 
@@ -299,7 +314,6 @@ header a:not(.no-height){
 
 }
 .sez5-bottom{
-    border: 3px dashed burlywood;
     background-color: #b4d0e7;
     height: 200px;
 }
@@ -379,9 +393,23 @@ header a:not(.no-height){
 }
 
 .sez6 div{
-    padding: 40px 0px;
+    /* padding: 40px 0px; */
     font-weight: bold;
 }
+.sez6 .top{
+    justify-content: space-between;
+}
+.sez6 .top .right{
+    padding: 0px 20px;
+}
+.sez6 details{
+    margin: 20px 0px;
+}
+details p{
+    padding-top: 10px;
+    font-weight: 200;
+}
+
 /* /sezione6 */
 
 /* SECTION *********************/
