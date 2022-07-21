@@ -105,6 +105,9 @@ header a:not(.no-height){
     background-color: #b4d0e7;
     background-position-y: top;
 }
+.sez1 .container_normal{
+    padding-top: 31px;
+}
 .sez1 h1{
     font-size: 70px;
     margin: 30px 0;
@@ -127,6 +130,10 @@ header a:not(.no-height){
     position: relative;
     top: 40px;
     left: 3px;
+}
+.sez1 .right_sez1 img:hover {
+    transition: 1s;
+    transform: scale(105%);
 }
 .sez1 i{
     font-size: 60px;
@@ -289,8 +296,7 @@ header a:not(.no-height){
     padding: 2%;
 }
 .sez5-right{
-    border: 3px dashed black;
-    background-color: darkgreen;
+
 }
 .sez5-bottom{
     border: 3px dashed burlywood;
@@ -302,9 +308,15 @@ header a:not(.no-height){
 }
 .sez5-bottom .right{
     width: 40%;
+    padding-top: 80px;
+    padding-left: 18px;
 }
 .sez5-bottom .container_small{
     height: 100%;
+}
+.sez5-bottom h2{
+    padding-top: 70px;
+    color:blueviolet;
 }
 
 /* center */
